@@ -28,6 +28,11 @@
   color: rgb(176, 11, 92);
 }
 
+
+.navbar-nav {
+  margin-top: 53px;
+}
+
 .navbar a {
   text-decoration: None !important;
 }
