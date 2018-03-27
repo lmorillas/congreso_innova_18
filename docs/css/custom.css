@@ -57,7 +57,7 @@
 }
 
 .bar.background-image-fixed-3 {
-  background: url('img/carousel/mayusculas_thin.jpg') center top no-repeat;
+  background: url('{{ .Site.BaseURL }}img/carousel/mayusculas_thin.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: bottom center;
@@ -87,7 +87,7 @@
 }
 
 .bar.background-puente {
-    background: url('img/carousel/puente.jpg') center top no-repeat;
+    background: url('{{ .Site.BaseURL }}img/carousel/puente.jpg') center top no-repeat;
     background-attachment: fixed;
     background-size: cover;
     padding: 20px 0;
