@@ -33,6 +33,10 @@
   margin-top: 53px;
 }
 
+.affix .navbar-nav{
+  margin-top: 0px;
+}
+
 .navbar a {
   text-decoration: None !important;
 }

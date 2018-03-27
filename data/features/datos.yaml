@@ -1,0 +1,19 @@
+Caracteristicas:
+  - dato: "12 espacios de acción"
+    icon: "fas fa-bolt"
+  - dato: "4 espacios de inspiración"
+    icon: "far fa-lightbulb"
+  - dato: "25 comunicaciones"
+    icon: "far fa-comments"
+  - dato: "Exposiciones de patrocinadores"
+    icon: "fas fa-barcode"
+  - dato: "Más de 700 participantes"
+    icon: "fas fa-users"
+  - dato: "De todos los ámbitos educativos"
+    icon: "fas fa-compress"
+
+Fechas:
+ - "14 de mayo se abren inscripciones al congreso"
+ - "3, 4 y 5 de septiembre se abre el proceso de inscripción en espacios de acción, espacios de inspiración, experiencias y comunicaciones"
+ - "6 de septiembre se publicitan las plazas que queden disponibles con las bajas que haya habido de los congresistas"
+ - "7 ó 10 de septiembre  (por decidir) se abre de nuevo el plazo de inscripción completo, es decir, con inscripción en el congreso e inscripción en los espacios, con las bajas que haya habido de los congresistas que no hayan seleccionado en el proceso previo ningún espacio"

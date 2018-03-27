@@ -1,0 +1,36 @@
+dia: "Sábado 22 de septiembre"
+weight: 2
+horario:
+    -
+        Hora: "9:00 a 9:30"
+        Actividad:  "Acreditaciones"
+    -
+        Hora: "9:30 a 10:30" 
+        Actividad:  "Ponencia plenaria 1"
+    -
+        Hora: "10:35 a 11:35" 
+        Actividad:  "Espacios de acción/espacios de inspiración/espacio para experiencias"
+    -
+        Hora: "11:35 a 12" 
+        Actividad:  "Café"
+    -
+        Hora: "12:00 a 13:00"
+        Actividad:  "Espacios de acción/espacios de inspiración/espacio para experiencias"
+    -
+        Hora: "13:05 a 14:05" 
+        Actividad:  "Ponencia plenaria 2"
+    -
+        Hora: "14:05 a 16:00"
+        Actividad:  "Comida"
+    -
+        Hora: "16:00 a 17:00" 
+        Actividad:  "Comunicaciones/espacio para experiencias"
+    -
+        Hora: "17:05 a 18:05" 
+        Actividad:  "Comunicaciones/espacio para experiencias"
+    -
+        Hora: "18:10 a 19:10" 
+        Actividad:  "Ponencia plenaria 3"
+    -
+        Hora: "19:15 a 20:00" 
+        Actividad:  "Espacio de reflexión y clausura"
