@@ -69,14 +69,14 @@
   background: url("../img/carousel/mayusculas_thin.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   width: 100%;
 }
 
 .bar.background-image-fixed-3 {
   background-image: url("../img/carousel/mayusculas_thin.jpg");
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: center;
   width: 100%;
   overflow: hidden;
 }
