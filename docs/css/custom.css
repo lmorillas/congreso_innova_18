@@ -64,17 +64,32 @@
 .patrocinadores {
   text-align: center;
 }
-
-.bar.background-image-fixed-3 {
-  background: url("../img/carousel/mayusculas_thin.jpg") no-repeat; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+/* Fotos background */
+.bar.background-image-fixed-33 {
+  background: url("../img/carousel/mayusculas_thin.jpg") no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position: bottom;
-  /* background-attachment: fixed;*/
+  width: 100%;
 }
 
+.bar.background-image-fixed-3 {
+  background-image: url("../img/carousel/mayusculas_thin.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.bar.background-puente {
+  background: url("../img/carousel/puente.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 20px 0;
+  margin-bottom: 0px;
+  background-position: center;
+}
 .lema2 {
   font-size: 26px;
 }
@@ -97,14 +112,6 @@
   text-align: center;
   min-height: 140px;
 }
-
-.bar.background-puente {
-    background: url("../img/carousel/puente.jpg") center top no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 20px 0;
-    margin-bottom: 0px;
-  }
 
 .bar.background-puente li{
   font-size: 18px;
