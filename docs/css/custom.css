@@ -66,10 +66,13 @@
 }
 
 .bar.background-image-fixed-3 {
-  background: url("../img/carousel/mayusculas_thin.jpg") center top no-repeat;
-  background-attachment: fixed;
+  background: url("../img/carousel/mayusculas_thin.jpg") no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: bottom center;
+  background-position: bottom;
+  /* background-attachment: fixed;*/
 }
 
 .lema2 {
