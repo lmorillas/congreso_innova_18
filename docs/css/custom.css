@@ -75,8 +75,9 @@
 
 .bar.background-image-fixed-3 {
   background-image: url("../img/carousel/mayusculas_thin.jpg");
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-position: center;
+  background-size: cover;
   width: 100%;
   overflow: hidden;
 }
