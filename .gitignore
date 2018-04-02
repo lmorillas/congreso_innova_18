@@ -1,0 +1,7 @@
+themes/
+env
+.vscode
+*pyc
+*bak
+tmp
+
