@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on II Congreso Internacional de Innovación Educativa</title>
+    <link>/es/categories/</link>
+    <description>Recent content in Categories on II Congreso Internacional de Innovación Educativa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Gobierno de Aragón, 2018</copyright>
+    
+	<atom:link href="/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/contacto/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/contacto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/contacto/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/faq/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/faq/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/faq/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/agenda/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/agenda/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/agenda/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/presentacion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/presentacion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/presentacion/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/programa/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/programa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/programa/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+  </url>
+  
+</urlset>

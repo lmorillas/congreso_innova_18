@@ -125,3 +125,29 @@
   border-style: solid;
   border-color: rgb(176, 11, 92);
 }
+
+.select-style {
+  border: 0;
+  width: 150px;
+  border-radius: 0px;
+  overflow: hidden;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.lima {
+  color: rgb(192, 198, 52);
+}
+.fucsia {
+  color: rgb(176, 11, 92);
+}
+
+.cc-banner {
+  border-top-width: 1px;
+  border-style: solid;
+  border-top-color: rgb(192, 198, 52);
+}
+
+.cc-dismiss {
+  background-color: rgb(176, 11, 92);
+}
