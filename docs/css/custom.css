@@ -84,6 +84,66 @@
   margin-bottom: 0px;
   background-position: center;
 }
+
+.background-cuartielles {
+  background: url("../img/carousel/cuartielles.png") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 20px 0;
+  margin-bottom: 0px;
+  background-position: center;
+}
+
+.fbackground-cuartielles:before {
+  background: url("../img/carousel/cuartielles.png") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 20px 0;
+  margin-bottom: 0px;
+  background-position: center;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  content: "";
+  z-index: 999;
+}
+
+.fbackground-cuartielles {
+  padding: 20px 0;
+  margin-bottom: 0px;
+  z-index: 0;
+}
+
+
+.cbar.background-cuartiellest:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  
+  display: block;
+  background-image:  url("../img/carousel/cuartielles.png");
+  width: 1200px;
+  height: 800px;
+  
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.cbar.background-cuartielles {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .lema2 {
   font-size: 26px;
 }
