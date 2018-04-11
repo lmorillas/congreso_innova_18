@@ -76,38 +76,42 @@
 }
 
 
-.bar.background-puente {
+.bbar.background-puente {
   background: url("../img/carousel/puente.jpg") no-repeat;
   background-attachment: fixed;
   padding: 20px 0;
   margin-bottom: 0px;
   background-position: center;
-
 }
 
-.background-cuartielles {
-  background: url("../img/carousel/cuartielles.png") no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  padding: 20px 0;
-  margin-bottom: 0px;
-  background-position: center;
+.background-puente {
+  position: relative;
 }
 
-.fbackground-cuartielles:before {
-  background: url("../img/carousel/cuartielles.png") no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  padding: 20px 0;
-  margin-bottom: 0px;
-  background-position: center;
+.background-puente::before {
+  background: url("../img/carousel/puente.jpg") no-repeat;
+  content: '';
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: fixed; 
+  background-position-x: center;
+  
+
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
-  content: "";
-  z-index: 999;
+}
+
+.background-cuartielles {
+  background: url("../img/carousel/cuartielles.png") no-repeat;
+  background-attachment: fixed;
+  padding: 20px 0;
+  margin-bottom: 0px;
+  min-width: 100%;
+  background-position: top;
 }
 
 .fbackground-cuartielles {
@@ -230,7 +234,7 @@
 }
 
 
-.presentacion p {
+.presentacion * {
   font-size: 18px !important;
 }
 
