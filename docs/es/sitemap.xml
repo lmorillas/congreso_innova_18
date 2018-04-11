@@ -75,7 +75,7 @@
   </url>
   
   <url>
-    <loc>/es/ponencias/</loc>
+    <loc>/es/plenarias/</loc>
   </url>
   
   <url>
@@ -104,6 +104,10 @@
                 hreflang="es"
                 href="/es/programa/"
                 />
+  </url>
+  
+  <url>
+    <loc>/es/inspiracion/</loc>
   </url>
   
   <url>
