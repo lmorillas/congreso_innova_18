@@ -228,3 +228,65 @@ font-size: 18px !important;
   padding: 2px 16px;
 }
 
+/* Ow; Slider CSS*/
+
+.owl-wrapper {
+  position: relative;
+}
+
+.owl-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.owl-theme .owl-controls .owl-page span {
+  background: #fff !important;
+}
+
+.owl-img {
+  width: 100%;
+}
+
+.owl-text-overlay {
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  top: 30%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 15px;
+}
+
+h2.owl-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p.owl-caption {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.owl-theme .owl-controls .owl-page span:active {
+  background: #fff !important;
+}
+
+/* hide previous and next */
+
+.owl-buttons {
+  visibility: hidden;
+  display: none;
+}
