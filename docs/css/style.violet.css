@@ -322,7 +322,7 @@ ul.list-style-none {
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
   text-decoration: none !important;
-  border-top: solid 5px #653d87;
+  border-top: solid 5px #d7db4c;
 }
 @media (max-width: 768px) {
   .navbar ul.nav > li.active > a,
@@ -334,12 +334,12 @@ ul.list-style-none {
   }
 }
 .navbar.navbar-light ul.nav > li.active > a {
-  border-top: solid 5px #653d87;
+  border-top: solid 5px #d7db4c;
   background: #fff !important;
   color: #555555 !important;
 }
 .navbar.navbar-light ul.nav > li.active > a:hover {
-  border-top: solid 5px #653d87;
+  border-top: solid 5px #d7db4c;
 }
 .navbar.navbar-light ul.nav > li > a:hover,
 .navbar.navbar-light ul.nav > li.open > a:hover,
