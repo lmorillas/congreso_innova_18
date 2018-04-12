@@ -32,20 +32,6 @@
   </url>
   
   <url>
-    <loc>/en/espaciosdeaccion/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/espaciosdeaccion/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/espaciosdeaccion/"
-                />
-  </url>
-  
-  <url>
     <loc>/en/faq/</loc>
     <xhtml:link
                 rel="alternate"
@@ -141,6 +127,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/inspiracion/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/espaciosdeaccion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/espaciosdeaccion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/espaciosdeaccion/"
                 />
   </url>
   
