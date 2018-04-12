@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Espacios de acción</title>
+      <link>/en/espaciosdeaccion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/espaciosdeaccion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>FAQ</title>
       <link>/en/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,6 +45,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/en/agenda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plenarias</title>
+      <link>/en/plenarias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/plenarias/</guid>
       <description></description>
     </item>
     
@@ -56,6 +74,15 @@ Este congreso tratará temas como la transformación de espacios, la gestión de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/en/programa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semiplenarios</title>
+      <link>/en/inspiracion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/inspiracion/</guid>
       <description></description>
     </item>
     

@@ -33,6 +33,16 @@
   
   <url>
     <loc>/es/espaciosdeaccion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/espaciosdeaccion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/espaciosdeaccion/"
+                />
   </url>
   
   <url>
@@ -80,6 +90,16 @@
   
   <url>
     <loc>/es/plenarias/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/plenarias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/plenarias/"
+                />
   </url>
   
   <url>
@@ -112,6 +132,16 @@
   
   <url>
     <loc>/es/inspiracion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/inspiracion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/inspiracion/"
+                />
   </url>
   
   <url>

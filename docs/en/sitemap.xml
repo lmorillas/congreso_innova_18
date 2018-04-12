@@ -32,6 +32,20 @@
   </url>
   
   <url>
+    <loc>/en/espaciosdeaccion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/espaciosdeaccion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/espaciosdeaccion/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/faq/</loc>
     <xhtml:link
                 rel="alternate"
@@ -75,6 +89,20 @@
   </url>
   
   <url>
+    <loc>/en/plenarias/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/plenarias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/plenarias/"
+                />
+  </url>
+  
+  <url>
     <loc>/en/presentacion/</loc>
     <xhtml:link
                 rel="alternate"
@@ -99,6 +127,20 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/programa/"
+                />
+  </url>
+  
+  <url>
+    <loc>/en/inspiracion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/inspiracion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/inspiracion/"
                 />
   </url>
   
