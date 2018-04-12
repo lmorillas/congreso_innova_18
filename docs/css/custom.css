@@ -290,3 +290,7 @@ p.owl-caption {
   visibility: hidden;
   display: none;
 }
+
+img.desaturate {
+	filter: grayscale(90%);
+}
