@@ -1185,8 +1185,15 @@ fieldset[disabled] .btn-template-primary.active {
 @media (min-width: 992px) {
   .home-carousel .right {
     text-align: right;
+
   }
 }
+
+.home-carousel .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .home-carousel h1,
 .home-carousel h2,
 .home-carousel h3,
