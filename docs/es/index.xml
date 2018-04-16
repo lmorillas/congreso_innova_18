@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Aviso legal</title>
+      <link>/es/aviso_legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/aviso_legal/</guid>
+      <description>PROTECCIÓN DE DATOS De conformidad con lo dispuesto en la Ley Orgánica 15&amp;frasl;1999, de 13 de diciembre ,de Protección de Datos de Carácter Personal (LOPD), modificada por la Ley 62&amp;frasl;2003, de 30 de diciembre, de medidas fiscales, administrativas y del orden social y en la sentencia 292&amp;frasl;2000, de 30 de noviembre, recaída en el recurso de inconstitucionalidad 1463&amp;frasl;2000 (BOE num. 4, de 4 de enero del 2001), los datos suministrados por el usuario quedaran incorporados en un fichero automatizado y se recogerán a través de los mecanismos correspondientes, los cuales sólo contendrán los campos imprescindibles para poder prestar el servicio requerido por el usuario.</description>
+    </item>
+    
+    <item>
       <title>Contacto</title>
       <link>/es/contacto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -49,11 +58,30 @@
     </item>
     
     <item>
+      <title>Inscripciones</title>
+      <link>/es/inscripciones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/inscripciones/</guid>
+      <description>Aquí tendrás toda la información sobre el proceso para inscribirte en el congreso.
+Iremos recordando las fechas también en nuestras redes sociales.</description>
+    </item>
+    
+    <item>
       <title>Plenarias</title>
       <link>/es/plenarias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/es/plenarias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pontentes</title>
+      <link>/es/ponentes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/ponentes/</guid>
       <description></description>
     </item>
     

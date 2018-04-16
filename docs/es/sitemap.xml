@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/es/aviso_legal/</loc>
+  </url>
+  
+  <url>
     <loc>/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -89,6 +93,10 @@
   </url>
   
   <url>
+    <loc>/es/inscripciones/</loc>
+  </url>
+  
+  <url>
     <loc>/es/plenarias/</loc>
     <xhtml:link
                 rel="alternate"
@@ -100,6 +108,10 @@
                 hreflang="es"
                 href="/es/plenarias/"
                 />
+  </url>
+  
+  <url>
+    <loc>/es/ponentes/</loc>
   </url>
   
   <url>

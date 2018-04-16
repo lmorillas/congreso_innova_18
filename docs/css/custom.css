@@ -294,3 +294,8 @@ p.owl-caption {
 img.desaturate {
 	filter: grayscale(90%);
 }
+
+
+.ponente h3 {
+  margin-top: 0px;
+}
