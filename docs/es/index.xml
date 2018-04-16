@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Espacio de inspiración</title>
+      <link>/es/inspiracion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/inspiracion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Espacios de acción</title>
       <link>/es/espaciosdeaccion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -102,15 +111,6 @@ Este congreso tratará temas como la transformación de espacios, la gestión de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/es/programa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Semiplenarios</title>
-      <link>/es/inspiracion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/es/inspiracion/</guid>
       <description></description>
     </item>
     

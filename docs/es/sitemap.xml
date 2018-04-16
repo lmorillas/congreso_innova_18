@@ -36,6 +36,20 @@
   </url>
   
   <url>
+    <loc>/es/inspiracion/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/inspiracion/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/inspiracion/"
+                />
+  </url>
+  
+  <url>
     <loc>/es/espaciosdeaccion/</loc>
     <xhtml:link
                 rel="alternate"
@@ -139,20 +153,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="/es/programa/"
-                />
-  </url>
-  
-  <url>
-    <loc>/es/inspiracion/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/inspiracion/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/inspiracion/"
                 />
   </url>
   
