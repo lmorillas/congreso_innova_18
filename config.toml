@@ -42,9 +42,9 @@ weight = 0
     weight = 2
 
 [[languages.es.menu.main]]
-    name = "Fechas Importantes"
-    identifier = "agenda"
-    url  = "/agenda/"
+    name = "Inscripciones"
+    identifier = "inscripciones"
+    url  = "/inscripciones/"
     weight = 3
 
 [[languages.es.menu.main]]
@@ -62,6 +62,38 @@ weight = 0
     name = "Ed. Anterior"
     url  = "https://2017.congresoinnovacion.educa.aragon.es"
     weight = 5
+
+
+
+[[languages.es.menu.main]]
+    name = "Agenda"
+    identifier = "agenda"
+    parent = "programa"
+    url  = "/programa/"
+    weight = 10
+
+[[languages.es.menu.main]]
+    name = "Plenarias"
+    parent = "programa"
+    identifier = "plenarias"
+    url  = "/plenarias/"
+    weight = 11
+
+[[languages.es.menu.main]]
+    name = "Espacio de inspiración"
+    parent = "programa"
+    identifier = "semiplenarias"
+    url  = "/inspiracion/"
+    weight = 12
+
+[[languages.es.menu.main]]
+    name = "Espacios de acción"
+    parent = "programa"
+    identifier = "espacios"
+    url  = "/es/espaciosdeaccion/"
+    weight = 13
+
+
 # Top bar social links menu
 
 [[languages.es.menu.topbar]]
@@ -85,6 +117,7 @@ weight = 0
 
 [languages.en]
 languageName = 'English'
+weight = 2
 
 [[languages.en.menu.main]]
     name = "Home"
@@ -118,7 +151,26 @@ languageName = 'English'
     url  = "https://2017.congresoinnovacion.educa.aragon.es"
     weight = 5
 # Top bar social links menu
+[[languages.en.menu.main]]
+    name = "Plenary"
+    parent = "programa"
+    identifier = "plenarias"
+    url  = "/plenarias/"
+    weight = 10
 
+[[languages.en.menu.main]]
+    name = "Semi-plenary"
+    parent = "programa"
+    identifier = "semiplenarias"
+    url  = "/inspiracion/"
+    weight = 12
+
+[[languages.en.menu.main]]
+    name = "Spaces for action"
+    parent = "programa"
+    identifier = "espacios"
+    url  = "/espaciosdeaccion/"
+    weight = 13
 
 [params]
     lema = "II Congreso Internacional de Innovación Educativa"
@@ -230,3 +282,6 @@ languageName = 'English'
     enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+
+
+disableLanguages = ['en']

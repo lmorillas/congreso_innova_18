@@ -1,16 +1,22 @@
 Caracteristicas:
   - dato: "3 ponencias plenarias"
     icon: "fas fa-bolt"
-  - dato: "4 espacios de inspiración"
+    link: plenarias
+  - dato: "Espacio de inspiración"
     icon: "far fa-lightbulb"
-  - dato: "12 espacios de acción"
-    icon: "fas fa-bolt"
+    link: inspiracion
+  - dato: "14 espacios de acción"
+    icon: "fas fa-cogs"
+    link: "espaciosdeaccion"
   - dato: "24 comunicaciones"
     icon: "far fa-comments"
+    link: ""
   - dato: "12 experiencias de centros"
-    icon: "fas fa-compress"
+    icon: "fab fa-slideshare"
+    link: ""
   - dato: "700 congresistas"
     icon: "fas fa-users"
+    link: ""
 # - dato: "Exposiciones de patrocinadores"
 #   icon: "fas fa-barcode"
   
@@ -20,3 +26,67 @@ Fechas:
  - "3, 4 y 5 de septiembre se abre el proceso de inscripción en espacios de acción, espacios de inspiración, experiencias y comunicaciones. Es obligatorio completar esta selección para estar inscrito en el congreso."
  - "6 de septiembre se publicitan las plazas que queden disponibles con las bajas que haya habido de los congresistas"
  - "7 de septiembre a las 18 horas se abre de nuevo el plazo de inscripción (inscripción en el congreso e inscripción en los espacios), con las bajas que haya habido de los congresistas que no hayan seleccionado en el proceso previo ningún espacio"
+
+
+Plenarios:
+ - nombre: Catherine L'Ecuyer
+   imagen:
+   weight: 1
+   titulo: Emociones
+ - nombre: Rosan Bosh
+   imagen:
+   weight: 2
+   titulo: Espacios
+ - nombre: Por Determinar
+   imagen:
+   weight: 
+   titulo:
+
+Semiplenarios:
+ - nombre: Rosa Liarte
+   imagen:
+   weight: 1
+   titulo: Innovación
+ - nombre: Santi Cirujeda
+   imagen:
+   weight: 2
+   titulo: Espacios
+ - nombre: Mar Romera
+   imagen:
+   weight: 3
+   titulo: Emociones
+ - nombre: Por determinar
+   imagen:
+   weight: 
+   titulo: 4
+   
+Talleres:
+ - nombre: Tamara Chubarovsky
+   tema: emociones
+ - nombre: Aitor Zenarruzabeita
+   tema: emociones
+ - nombre: Miguel Luengo
+   tema: innovación
+ - nombre: Inma Tena y Teresa Hernando
+   tema: espacios
+ - nombre: Carolina Calvo y Yoli
+   tema: emociones
+ - nombre: Cocinando con alegria. CEE Gloria Fuertes de Andorra
+   tema: emociones
+ - nombre: Begoña Ibarrola
+   tema: emociones
+ - nombre: Natxo Maté
+   tema: gamificación
+ - nombre: Neuro hacker
+   tema: emociones
+ - nombre: Científicos Big Ban
+   tema: innovación
+ - nombre: Habilidades comunicativas . CEE Jean Piaget
+   tema: innovación
+   
+
+
+
+
+  
+

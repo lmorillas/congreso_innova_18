@@ -16,7 +16,7 @@ En este foro viviremos la oportunidad de *compartir e intercambiar experiencias 
 
 La transformación de los espacios, la gestión de las emociones y la innovación nos proporcionará, entre otras, algunas de las opciones más potentes para construir ambientes de aprendizaje innovadores en los que el alumnado aprenda, crezca, se inspire, se emocione y se sienta más feliz.
 
-**Objetivos**:
+### Objetivos:
 
 * Proporcionar un foro de encuentro para difundir experiencias innovadoras que están transformando la educación.
 * Conocer las tendencias educativas de la mano de personas expertas de reconocido prestigio.
