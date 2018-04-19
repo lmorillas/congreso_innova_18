@@ -30,15 +30,6 @@
     </item>
     
     <item>
-      <title>Espacio de Inspiracion</title>
-      <link>/es/ponentes-espacio-inspiracion/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/es/ponentes-espacio-inspiracion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Espacio de inspiración</title>
       <link>/es/inspiracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -95,7 +86,16 @@
     </item>
     
     <item>
-      <title>Pontentes</title>
+      <title>Ponentes Espacio de Inspiración</title>
+      <link>/es/detalle-espacio-inspiracion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/detalle-espacio-inspiracion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pontentes Plenarias</title>
       <link>/es/ponentes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

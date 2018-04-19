@@ -36,10 +36,6 @@
   </url>
   
   <url>
-    <loc>/es/ponentes-espacio-inspiracion/</loc>
-  </url>
-  
-  <url>
     <loc>/es/inspiracion/</loc>
     <xhtml:link
                 rel="alternate"
@@ -126,6 +122,10 @@
                 hreflang="es"
                 href="/es/plenarias/"
                 />
+  </url>
+  
+  <url>
+    <loc>/es/detalle-espacio-inspiracion/</loc>
   </url>
   
   <url>
