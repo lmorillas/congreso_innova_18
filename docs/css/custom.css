@@ -310,6 +310,10 @@ img.desaturate {
   margin: 20px 0;
 }
 
+.taller  .cardpie{
+  padding: 16px 16px;
+}
+
 #heading-breadcrumbs {
   background: url(../img/texturafucsia90.png) center center repeat;
 }
