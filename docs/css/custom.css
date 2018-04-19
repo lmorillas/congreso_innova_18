@@ -307,7 +307,7 @@ img.desaturate {
 }
 
 .taller {
-  margin: 20px 0;
+  margin-bottom: 30px;
 }
 
 .taller  .cardpie{
@@ -320,4 +320,9 @@ img.desaturate {
 
 .home-carousel {
   background: url(../img/texturafucsia90.png) center center repeat;
+}
+
+
+section.talleres  {
+  padding-top: 0px;
 }
