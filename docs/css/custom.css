@@ -160,6 +160,12 @@
 .lima {
   color: rgb(192, 198, 52);
 }
+
+
+.limaborder{
+  border-color: rgb(192, 198, 52);
+}
+
 .fucsia {
   color: rgb(176, 11, 92);
 }
