@@ -130,6 +130,7 @@ function sliders () {
       singleItem: true,
       lazyLoad: false,
       addClassActive: true,
+      video: true,
       afterInit: function () {
         //animationsSlider()
       },
