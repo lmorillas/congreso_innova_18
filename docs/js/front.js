@@ -114,7 +114,7 @@ function sliders () {
       slideSpeed: 300,
       paginationSpeed: 400,
       autoPlay: true,
-      stopOnHover: true,
+      stopOnHover: false,
       singleItem: true,
       afterInit: '',
       lazyLoad: true
@@ -126,7 +126,7 @@ function sliders () {
       slideSpeed: 2000,
       paginationSpeed: 1000,
       autoPlay: true,
-      stopOnHover: true,
+      stopOnHover: false,
       singleItem: true,
       lazyLoad: false,
       addClassActive: true,
