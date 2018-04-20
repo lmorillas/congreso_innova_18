@@ -332,3 +332,7 @@ img.desaturate {
 section.talleres  {
   padding-top: 0px;
 }
+
+.box-simple a:hover {
+  color: #dddd27;
+}

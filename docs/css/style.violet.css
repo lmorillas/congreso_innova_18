@@ -1165,7 +1165,7 @@ fieldset[disabled] .btn-template-primary.active {
   filter: alpha(opacity=90);
 }
 .home-carousel .owl-carousel {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 5px;
 }
 .home-carousel .owl-theme .owl-controls .owl-page span {
