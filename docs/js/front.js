@@ -81,12 +81,12 @@ function sliderHomepage () {
     // var owl = $('#slider')
 
     $('#slider').owlCarousel({
-      autoPlay: 3000,
+      autoPlay: 2000,
       items: 3,
       center: true,
       itemsDesktopSmall: [900, 3],
       itemsTablet: [600, 3],
-      itemsMobile: [500, 2]
+      itemsMobile: [500, 3]
     })
   }
 }
