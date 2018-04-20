@@ -68,6 +68,10 @@
   </url>
   
   <url>
+    <loc>/es/experiencias-centros/</loc>
+  </url>
+  
+  <url>
     <loc>/es/faq/</loc>
     <xhtml:link
                 rel="alternate"
