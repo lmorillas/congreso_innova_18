@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/es/ponentes/alfredo-hernando/</loc>
+  </url>
+  
+  <url>
     <loc>/es/aviso_legal/</loc>
   </url>
   
@@ -22,6 +26,10 @@
   </url>
   
   <url>
+    <loc>/es/ponentes/catherine-lecuyer/</loc>
+  </url>
+  
+  <url>
     <loc>/es/comunicaciones/</loc>
   </url>
   
@@ -37,6 +45,10 @@
                 hreflang="es"
                 href="/es/contacto/"
                 />
+  </url>
+  
+  <url>
+    <loc>/es/ponentes/david-marsh/</loc>
   </url>
   
   <url>
@@ -123,6 +135,10 @@
   </url>
   
   <url>
+    <loc>/es/ponentes/mar-romera/</loc>
+  </url>
+  
+  <url>
     <loc>/es/plenarias/</loc>
     <xhtml:link
                 rel="alternate"
@@ -134,6 +150,11 @@
                 hreflang="es"
                 href="/es/plenarias/"
                 />
+  </url>
+  
+  <url>
+    <loc>/es/ponentes/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -170,6 +191,18 @@
                 hreflang="es"
                 href="/es/programa/"
                 />
+  </url>
+  
+  <url>
+    <loc>/es/ponentes/rosa-liarte/</loc>
+  </url>
+  
+  <url>
+    <loc>/es/ponentes/rosan-bosch/</loc>
+  </url>
+  
+  <url>
+    <loc>/es/ponentes/santi-cirugeda/</loc>
   </url>
   
   <url>

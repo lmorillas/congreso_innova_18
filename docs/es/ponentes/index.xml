@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ponentes on II Congreso Internacional de Innovación Educativa</title>
+    <link>/es/ponentes/</link>
+    <description>Recent content in Ponentes on II Congreso Internacional de Innovación Educativa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-es</language>
+    <copyright>Gobierno de Aragón, 2018</copyright>
+    
+	<atom:link href="/es/ponentes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alfredo Hernando</title>
+      <link>/es/ponentes/alfredo-hernando/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/ponentes/alfredo-hernando/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Catherine L’Ecuyer</title>
+      <link>/es/ponentes/catherine-lecuyer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/ponentes/catherine-lecuyer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David Marsh</title>
+      <link>/es/ponentes/david-marsh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/ponentes/david-marsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mar Romera</title>
+      <link>/es/ponentes/mar-romera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/ponentes/mar-romera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rosa Liarte</title>
+      <link>/es/ponentes/rosa-liarte/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/ponentes/rosa-liarte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rosan Bosch</title>
+      <link>/es/ponentes/rosan-bosch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/ponentes/rosan-bosch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Santi Cirugeda</title>
+      <link>/es/ponentes/santi-cirugeda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/ponentes/santi-cirugeda/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
