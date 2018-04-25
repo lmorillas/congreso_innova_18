@@ -67,6 +67,15 @@ En este congreso se expondrán comunicaciones de carácter nacional e internacio
     </item>
     
     <item>
+      <title>Espacio de Reflexión Colectiva</title>
+      <link>/es/reflexion_colectiva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/es/reflexion_colectiva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Espacio de inspiración</title>
       <link>/es/inspiracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -142,15 +151,6 @@ En este congreso se expondrán comunicaciones de carácter nacional e internacio
     </item>
     
     <item>
-      <title>Plenarias</title>
-      <link>/es/plenarias/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/es/plenarias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ponentes Espacio de Inspiración</title>
       <link>/es/detalle-espacio-inspiracion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -221,8 +221,8 @@ Este congreso tratará temas como la transformación de espacios, la gestión de
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/es/taller-conciliacion-familiar/</guid>
-      <description>Con objeto de atender la demanda de los padres y madres interesados en acudir al II Congreso Internacional de Innovación Educativa y de facilitar la conciliación de la vida familiar durante la tarde del viernes, y la jornada completa del sábado, se ha programado un taller organizado por la PAI titulado &amp;ldquo;De espacios, casas y ciudades&amp;rdquo;.
- Dicho taller pretende ser un espacio de conciliación que juegue con las líneas estratégicas del Congreso, de forma que habrá varias instalaciones/espacios de juego libre donde se realizarán diferentes intervenciones.</description>
+      <description>Con objeto de atender la demanda de los padres y madres interesados en acudir al II Congreso Internacional de Innovación Educativa y de facilitar la conciliación de la vida familiar durante la tarde del viernes, y la jornada completa del sábado, se ha programado un taller titulado &amp;ldquo;De espacios, casas y ciudades&amp;rdquo;.
+ </description>
     </item>
     
   </channel>

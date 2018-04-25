@@ -52,6 +52,20 @@
   </url>
   
   <url>
+    <loc>/es/reflexion_colectiva/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/plenarias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="/es/reflexion_colectiva/"
+                />
+  </url>
+  
+  <url>
     <loc>/es/inspiracion/</loc>
     <xhtml:link
                 rel="alternate"
@@ -136,20 +150,6 @@
   
   <url>
     <loc>/es/ponentes/mar-romera/</loc>
-  </url>
-  
-  <url>
-    <loc>/es/plenarias/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/plenarias/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/plenarias/"
-                />
   </url>
   
   <url>
