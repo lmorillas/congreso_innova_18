@@ -22,50 +22,44 @@ publishDir = "docs"
 
 # Site language. Available translations in the theme's `/i18n` directory.
 
-defaultContentLanguageInSubdir= true
+# defaultContentLanguageInSubdir= true
 
-[languages]
 [menu]
 # Main menu
-[languages.es]
-languageName = 'Español'
-weight = 0
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Inicio"
     url  = "/"
     weight = 1
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Presentación"
     url  = "/presentacion/"
     weight = 2
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Inscripciones"
     identifier = "inscripciones"
     url  = "/inscripciones/"
     weight = 3
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Programa"
     identifier = "programa"
     url  = "/programa/"
     weight = 3
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Contacto"
     url  = "/contacto/"
     weight = 4
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "I Congreso"
     url  = "https://2017.congresoinnovacion.educa.aragon.es"
     weight = 5
 
-
-
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Agenda"
     identifier = "agenda"
     parent = "programa"
@@ -73,49 +67,49 @@ weight = 0
     weight = 10
 
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Hackea el espacio"
     identifier = "hackeaespacio"
     parent = "programa"
     url  = "/hackea-el-espacio/"
     weight = 15
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Espacio de Reflexión Colectiva"
     parent = "programa"
     identifier = "reflexioncolectiva"
     url  = "/reflexion_colectiva/"
     weight = 16
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Espacio de inspiración"
     parent = "programa"
     identifier = "semiplenarias"
     url  = "/inspiracion/"
     weight = 17
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Espacios de acción"
     parent = "programa"
     identifier = "espacios"
-    url  = "/es/espaciosdeaccion/"
+    url  = "/espaciosdeaccion/"
     weight = 18
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Comunicaciones"
     parent = "programa"
     identifier = "comunicaciones"
     url  = "/comunicaciones/"
     weight = 19
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Experiencias de centros"
     parent = "programa"
     identifier = "experiencias-centros"
     url  = "/experiencias-centros/"
     weight = 20
 
-[[languages.es.menu.main]]
+[[menu.main]]
     name = "Taller de conciliación familiar"
     parent = "programa"
     identifier = "conciliacion"
@@ -124,81 +118,23 @@ weight = 0
 
 # Top bar social links menu
 
-[[languages.es.menu.topbar]]
+[[menu.topbar]]
     weight = 1
     name = "Facebook"
     url = "https://www.facebook.com/innoeducacion"
     pre = "<i class='fab fa-2x fa-facebook-f'></i>"
 
-[[languages.es.menu.topbar]]
+[[menu.topbar]]
     weight = 2
     name = "Twitter"
     url = "https://twitter.com/innoeducacion"
     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
-[[languages.es.menu.topbar]]
+[[menu.topbar]]
     weight = 3
     name = "Email"
     url = "mailto:innovaeducar@aragon.es"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
-
-
-[languages.en]
-languageName = 'English'
-weight = 2
-
-[[languages.en.menu.main]]
-    name = "Home"
-    url  = "/"
-    weight = 1
-
-[[languages.en.menu.main]]
-    name = "Presentation"
-    url  = "/presentacion/" 
-    weight = 2
-
-[[languages.en.menu.main]]
-    name = "Dates to remember"
-    identifier = "agenda"
-    url  = "/agenda/"
-    weight = 3
-
-[[languages.en.menu.main]]
-    name = "Program"
-    identifier = "programa"
-    url  = "/programa/"
-    weight = 3
-
-[[languages.en.menu.main]]
-    name = "Contact"
-    url  = "/contacto/"
-    weight = 4
-
-[[languages.en.menu.main]]
-    name = "Prev. edition"
-    url  = "https://2017.congresoinnovacion.educa.aragon.es"
-    weight = 5
-# Top bar social links menu
-[[languages.en.menu.main]]
-    name = "Plenary"
-    parent = "programa"
-    identifier = "plenarias"
-    url  = "/plenarias/"
-    weight = 10
-
-[[languages.en.menu.main]]
-    name = "Semi-plenary"
-    parent = "programa"
-    identifier = "semiplenarias"
-    url  = "/inspiracion/"
-    weight = 12
-
-[[languages.en.menu.main]]
-    name = "Spaces for action"
-    parent = "programa"
-    identifier = "espacios"
-    url  = "/espaciosdeaccion/"
-    weight = 13
 
 [params]
     lema = "II Congreso Internacional de Innovación Educativa"

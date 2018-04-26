@@ -14,6 +14,8 @@ El **II Congreso Internacional de Innovación Educativa**, organizado por el **D
 
 En este congreso se expondrán comunicaciones de carácter nacional e internacional destinadas a toda la comunidad educativa. Estas comunicaciones mostrarán **prácticas de aula** o **investigaciones** relacionadas con el ámbito escolar. Quienes deseen presentar una comunicación deberán hacerlo según las instrucciones que aparecen a continuación.
 
+> [{{% awe  "fas fa-file-alt fucsia"  %}} Documento de instrucciones](/docs/Comunicaciones.pdf)
+
 
 ## Normas para las comunicaciones del Congreso
 Las propuestas de comunicaciones, en sus dos posibles modalidades: práctica de aula o investigación, deberán ser remitidas a la organización del congreso mediante correo electrónico a innovaeducar@aragon.es indicando en el asunto **“comunicación: práctica de aula”** o **“comunicación: investigación”** antes de las fechas establecidas a través del formulario disponible en:
@@ -26,7 +28,3 @@ Las propuestas de comunicaciones, en sus dos posibles modalidades: práctica de 
 Independientemente de la modalidad elegida, no podrá presentarse más de una aportación por autor. Todas las comunicaciones deberán ser originales y no se habrán presentado en otros congresos o encuentros.
 
 Los comunicantes tendrán un tiempo de exposición de **35 minutos** por comunicación seguido de un **debate de 15 minutos con los asistentes**.
-
-## Más información
-
-> [{{% awe  "fas fa-file-alt fucsia"  %}} Documento de instrucciones](/docs/Comunicaciones.pdf)
