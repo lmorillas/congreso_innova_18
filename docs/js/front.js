@@ -108,6 +108,16 @@ function sliders () {
       itemsMobile: [480, 1]
     })
 
+    $('.generico').owlCarousel({
+      items: 1,
+      itemsDesktopSmall: [990, 1],
+      itemsTablet: [768, 1],
+      itemsMobile: [480, 1],
+      autoPlay: 5000,
+      center: true,
+    })
+
+
     $('.project').owlCarousel({
       navigation: true, // Show next and prev buttons
       navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
