@@ -73,6 +73,10 @@
   </url>
   
   <url>
+    <loc>/politica-privacidad/</loc>
+  </url>
+  
+  <url>
     <loc>/ponentes/</loc>
     <priority>0</priority>
   </url>

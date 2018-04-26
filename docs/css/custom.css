@@ -410,4 +410,9 @@ section.talleres  {
 .carousel-caption h3 {
     color: rgb(176, 11, 92);
   }
+
+
+.about a {
+  color: #fff;
+  text-decoration: underline;
 }
