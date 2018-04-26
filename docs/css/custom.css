@@ -416,3 +416,7 @@ section.talleres  {
   color: #fff;
   text-decoration: underline;
 }
+
+ul.customers {
+  padding-top: 15px;
+}
