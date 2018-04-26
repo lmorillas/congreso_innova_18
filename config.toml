@@ -13,7 +13,7 @@ copyright = "Gobierno de Aragón, 2018"
 # Enable comments by entering your Disqus shortname
 # disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-1734348-11"
 
 # Define the number of posts per page
 paginate = 10
@@ -59,7 +59,7 @@ weight = 0
     weight = 4
 
 [[languages.es.menu.main]]
-    name = "Ed. Anterior"
+    name = "I Congreso"
     url  = "https://2017.congresoinnovacion.educa.aragon.es"
     weight = 5
 
@@ -73,10 +73,10 @@ weight = 0
     weight = 10
 
 [[languages.es.menu.main]]
-    name = "Plenarias"
+    name = "Espacio de Reflexión Colectiva"
     parent = "programa"
-    identifier = "plenarias"
-    url  = "/plenarias/"
+    identifier = "reflexioncolectiva"
+    url  = "/reflexion_colectiva/"
     weight = 11
 
 [[languages.es.menu.main]]
@@ -93,6 +93,26 @@ weight = 0
     url  = "/es/espaciosdeaccion/"
     weight = 13
 
+[[languages.es.menu.main]]
+    name = "Comunicaciones"
+    parent = "programa"
+    identifier = "comunicaciones"
+    url  = "/comunicaciones/"
+    weight = 15
+
+[[languages.es.menu.main]]
+    name = "Experiencias de centros"
+    parent = "programa"
+    identifier = "experiencias-centros"
+    url  = "/experiencias-centros/"
+    weight = 14
+
+[[languages.es.menu.main]]
+    name = "Taller de conciliación familiar"
+    parent = "programa"
+    identifier = "conciliacion"
+    url  = "/taller-conciliacion-familiar"
+    weight = 16
 
 # Top bar social links menu
 
@@ -219,6 +239,10 @@ weight = 2
         <br><i class="fas fa-phone"></i> 976715433</br>
       </p>
       """
+    prensa = """> [pcirias@aragon.es](mailto:pcirias@aragon.es) - *976714173*
+    [jmrodriguezm@aragon.es](jmrodriguezm@aragon.es) - *976714173* 
+    """
+
     latitude = "41.668823"
     longitude = "-0.9088767"
 

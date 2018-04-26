@@ -1,6 +1,7 @@
 +++
 title = "Contacto"
 id = "contact"
+comunicacion_prensa = ["pcirias@aragon.es", "jmrodriguezm@aragon.es"]
 +++
 
 # ¿Tienes alguna duda o sugerencia?

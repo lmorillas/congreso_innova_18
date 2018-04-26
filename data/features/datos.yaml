@@ -1,11 +1,34 @@
 Caracteristicas:
-  - dato: "3 ponencias plenarias"
+  - dato: "Hackea el espacio"
+    icon: "fas fa-users"
+    link: "hackea-el-espacio"
+  - dato: "Expacio de Refexión Colectiva"
     icon: "fas fa-bolt"
-    link: plenarias
+    link: reflexion_colectiva
   - dato: "Espacio de inspiración"
     icon: "far fa-lightbulb"
     link: inspiracion
-  - dato: "14 espacios de acción"
+  - dato: "Espacios de acción"
+    icon: "fas fa-cogs"
+    link: "espaciosdeaccion"
+  - dato: "Comunicaciones"
+    icon: "far fa-comments"
+    link: "comunicaciones"
+  - dato: "Experiencias de centros"
+    icon: "fab fa-slideshare"
+    link: "experiencias-centros"
+
+CaracteristicasX:
+  - dato: "Hackea el espacio"
+    icon: "fas fa-users"
+    link: "hackea-el-espacio"
+  - dato: "Taller de conciliación familiar"
+    icon: "fas fa-child"
+    link: taller-conciliacion-familiar
+  - dato: "3 ponencias plenarias"
+    icon: "fas fa-bolt"
+    link: plenarias
+  - dato: "Espacios de acción e inspiración"
     icon: "fas fa-cogs"
     link: "espaciosdeaccion"
   - dato: "24 comunicaciones"
@@ -13,9 +36,6 @@ Caracteristicas:
     link: ""
   - dato: "12 experiencias de centros"
     icon: "fab fa-slideshare"
-    link: ""
-  - dato: "700 congresistas"
-    icon: "fas fa-users"
     link: ""
 # - dato: "Exposiciones de patrocinadores"
 #   icon: "fas fa-barcode"
