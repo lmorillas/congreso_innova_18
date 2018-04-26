@@ -1,6 +1,7 @@
 ---
 bloque: Plenarios
 cuando: ''
+web: "http://www.rosanbosch.com/es#"
 descripcion: "Rosan Bosch (Utrecht, 1969) no es arquitecta, pero es uno de los rostros\
   \ m\xE1s visibles de la innovaci\xF3n educativa a trav\xE9s del dise\xF1o de nuevos\
   \ espacios y mobiliario. La desmotivaci\xF3n con la que sus hijos llegaban de la\

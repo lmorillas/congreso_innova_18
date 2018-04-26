@@ -6,7 +6,7 @@ id : "programa"
 
 viernes: 
   - Hora: "10:00 a 14:00"
-    Actividad:  "Hackea el espacio: el alumnado como protagonista de la transformación"
+    Actividad:  "[Hackea el espacio: el alumnado como protagonista de la transformación](/hackea-el-espacio)"
     icon: "cubes"
   - Hora: "16:00 a 17:00"
     Actividad:  "Recepción y acreditaciones"

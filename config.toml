@@ -72,47 +72,55 @@ weight = 0
     url  = "/programa/"
     weight = 10
 
+
+[[languages.es.menu.main]]
+    name = "Hackea el espacio"
+    identifier = "hackeaespacio"
+    parent = "programa"
+    url  = "/hackea-el-espacio/"
+    weight = 15
+
 [[languages.es.menu.main]]
     name = "Espacio de Reflexión Colectiva"
     parent = "programa"
     identifier = "reflexioncolectiva"
     url  = "/reflexion_colectiva/"
-    weight = 11
+    weight = 16
 
 [[languages.es.menu.main]]
     name = "Espacio de inspiración"
     parent = "programa"
     identifier = "semiplenarias"
     url  = "/inspiracion/"
-    weight = 12
+    weight = 17
 
 [[languages.es.menu.main]]
     name = "Espacios de acción"
     parent = "programa"
     identifier = "espacios"
     url  = "/es/espaciosdeaccion/"
-    weight = 13
+    weight = 18
 
 [[languages.es.menu.main]]
     name = "Comunicaciones"
     parent = "programa"
     identifier = "comunicaciones"
     url  = "/comunicaciones/"
-    weight = 15
+    weight = 19
 
 [[languages.es.menu.main]]
     name = "Experiencias de centros"
     parent = "programa"
     identifier = "experiencias-centros"
     url  = "/experiencias-centros/"
-    weight = 14
+    weight = 20
 
 [[languages.es.menu.main]]
     name = "Taller de conciliación familiar"
     parent = "programa"
     identifier = "conciliacion"
     url  = "/taller-conciliacion-familiar"
-    weight = 16
+    weight = 21
 
 # Top bar social links menu
 

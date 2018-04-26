@@ -1,6 +1,7 @@
 ---
 bloque: Semiplenarios
 cuando: "s\xE1bado"
+web: "https://rosaliarte.com/"
 descripcion: "Licenciada en Historia por la Universidad de M\xE1laga. Es coordinadora\
   \ TIC en el IES Cartima, Apple Education Trainer, Apple Distinguished Educator,\
   \ Google Innovator, Google Trainer, as\xED como embajadora de aplicaciones educativas\

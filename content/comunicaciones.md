@@ -4,6 +4,9 @@ description = "Comunicaciones y experiencias de centros educativos"
 keywords = ["comunicaciones", "experiencias", "educación"]
 slug = "comunicaciones"
 doc1 = "Comunicaciones.docx"
+id = "concarrusel"
+
+fotos = ["comunicaciones1.jpg", "comunicaciones2.jpg"]
 +++
 
 

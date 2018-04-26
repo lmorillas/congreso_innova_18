@@ -1,6 +1,7 @@
 ---
 bloque: Plenarios
 cuando: ''
+web: "https://catherinelecuyer.com/"
 descripcion: "Catherine L\u2019Ecuyer es canadiense, afincada en Barcelona y madre\
   \ de 4 hijos. Es m\xE1ster por IESE Business School y m\xE1ster Europeo Oficial\
   \ de Investigaci\xF3n. En Canad\xE1 ha trabajado como Senior Council en una empresa\

@@ -2,6 +2,8 @@
 title = "Hackea el espacio"
 description = "Hackea el espacio"
 keywords = ["hack","hackers","espacio","educación", "innovación", "innovación educativa"]
+id = "concarrusel"
+fotos = ["hackeaespacio1.jpg", "hackeaespacio2.jpg", "hackeaespacio3.jpg" ]
 +++
 
 Esta actividad tiene por objetivo hacer partícipes de las líneas
