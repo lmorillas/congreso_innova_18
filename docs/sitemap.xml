@@ -1,14 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>/es/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>/en/sitemap.xml</loc>
-		
-	</sitemap>
-	
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/ponentes/alfredo-hernando/</loc>
+  </url>
+  
+  <url>
+    <loc>/aviso_legal/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/ponentes/catherine-lecuyer/</loc>
+  </url>
+  
+  <url>
+    <loc>/comunicaciones/</loc>
+  </url>
+  
+  <url>
+    <loc>/contacto/</loc>
+  </url>
+  
+  <url>
+    <loc>/ponentes/david-marsh/</loc>
+  </url>
+  
+  <url>
+    <loc>/reflexion_colectiva/</loc>
+  </url>
+  
+  <url>
+    <loc>/inspiracion/</loc>
+  </url>
+  
+  <url>
+    <loc>/espaciosdeaccion/</loc>
+  </url>
+  
+  <url>
+    <loc>/experiencias-centros/</loc>
+  </url>
+  
+  <url>
+    <loc>/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>/agenda/</loc>
+  </url>
+  
+  <url>
+    <loc>/hackea-el-espacio/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/inscripciones/</loc>
+  </url>
+  
+  <url>
+    <loc>/ponentes/mar-romera/</loc>
+  </url>
+  
+  <url>
+    <loc>/ponentes/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/detalle-espacio-inspiracion/</loc>
+  </url>
+  
+  <url>
+    <loc>/ponentes/</loc>
+  </url>
+  
+  <url>
+    <loc>/presentacion/</loc>
+  </url>
+  
+  <url>
+    <loc>/programa/</loc>
+  </url>
+  
+  <url>
+    <loc>/ponentes/rosa-liarte/</loc>
+  </url>
+  
+  <url>
+    <loc>/ponentes/rosan-bosch/</loc>
+  </url>
+  
+  <url>
+    <loc>/ponentes/santi-cirugeda/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/taller-conciliacion-familiar/</loc>
+  </url>
+  
+</urlset>

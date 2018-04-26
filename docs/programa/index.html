@@ -22,7 +22,7 @@
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
   
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
   
   
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -62,6 +62,33 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="/programa//" />
   <meta property="og:image" content="img/logo.png" />
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#efefef",
+      "text": "#404040"
+    },
+    "button": {
+      "background": "#B00B5C",
+      "text": "#ffffff"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "message": 'Este sitio usa cookies para mejorar la experiencia de usuario.',
+    "dismiss": 'Aceptar',
+    "deny": 'Rechazar',
+    "link": 'Más información',
+    "href": "/cookies"
+  },
+  "showLink": false
+})});
+</script>
+
 </head>
 
 
@@ -108,13 +135,32 @@
                   
                   <li class="dropdown">
                     
-                    <a href="/agenda/">Fechas Importantes</a>
+                    <a href="/inscripciones/">Inscripciones</a>
                     
                   </li>
                   
                   <li class="dropdown">
                     
-                    <a href="/programa/">Programa</a>
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programa <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      
+                        <li><a href="/programa/">Agenda</a></li>
+                      
+                        <li><a href="/hackea-el-espacio/">Hackea el espacio</a></li>
+                      
+                        <li><a href="/reflexion_colectiva/">Espacio de Reflexión Colectiva</a></li>
+                      
+                        <li><a href="/inspiracion/">Espacio de inspiración</a></li>
+                      
+                        <li><a href="/espaciosdeaccion/">Espacios de acción</a></li>
+                      
+                        <li><a href="/comunicaciones/">Comunicaciones</a></li>
+                      
+                        <li><a href="/experiencias-centros/">Experiencias de centros</a></li>
+                      
+                        <li><a href="/taller-conciliacion-familiar">Taller de conciliación familiar</a></li>
+                      
+                    </ul>
                     
                   </li>
                   
@@ -126,7 +172,7 @@
                   
                   <li class="dropdown">
                     
-                    <a href="https://2017.congresoinnovacion.educa.aragon.es">Ed. Anterior</a>
+                    <a href="https://2017.congresoinnovacion.educa.aragon.es">I Congreso</a>
                     
                   </li>
                   
@@ -159,7 +205,7 @@
 
 
 
-
+       
         </header>
 
         <div id="heading-breadcrumbs">
@@ -168,6 +214,7 @@
             <div class="col-md-12">
                 <h1>Programa</h1>
             </div>
+            
         </div>
     </div>
 </div>
@@ -184,38 +231,38 @@
                 <h3>Viernes 21 de septiembre</h3>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">16:00 a 17:00 &nbsp;&nbsp;
+                    <div class="col-xs-4  hora">10:00 a 14:00 &nbsp;&nbsp;
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <div class="col-xs-8"><a href="/hackea-el-espacio">Hackea el espacio: el alumnado como protagonista de la transformación</a></div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-4  hora">16:00 a 17:00 &nbsp;&nbsp;
                         <i class="fas fa-ticket-alt"></i>
                     </div>
-                    <div class="col-md-8">Recepción y acreditaciones</div>
+                    <div class="col-xs-8">Recepción y acreditaciones</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">17:00 a 17:15 &nbsp;&nbsp;
+                    <div class="col-xs-4  hora">17:00 a 18:00 &nbsp;&nbsp;
                         <i class="fas fa-rss"></i>
                     </div>
-                    <div class="col-md-8">Inauguración autoridades</div>
+                    <div class="col-xs-8">Ponencia Innovación Aragonesa e inauguración de autoridades</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">17:15 a 17:45 &nbsp;&nbsp;
-                        <i class="fas fa-bullhorn"></i>
-                    </div>
-                    <div class="col-md-8">Ponencia 0: Transformando la educación en Aragón</div>
-                </div>
-                
-                <div class="row">
-                    <div class="col-md-4 hora">17:45 a 18:45 &nbsp;&nbsp;
+                    <div class="col-xs-4  hora">18:05 a 19:10 &nbsp;&nbsp;
                         <i class="fas fa-comments"></i>
                     </div>
-                    <div class="col-md-8">Espacios de acción /espacios de inspiración/ espacio para experiencias</div>
+                    <div class="col-xs-8">Espacio de Inspiración / Espacios de Acción / Espacio de Experiencias</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">18:50 a 19:50 &nbsp;&nbsp;
+                    <div class="col-xs-4  hora">19:15 a 20:30 &nbsp;&nbsp;
                         <i class="fas fa-comments"></i>
                     </div>
-                    <div class="col-md-8">Espacios de acción /espacios de inspiración/ espacio para experiencias</div>
+                    <div class="col-xs-8">Espacio de Inspiración / Espacios de Acción / Espacio de Experiencias</div>
                 </div>
                 
             </div>
@@ -223,80 +270,80 @@
                 <h3>Sábado 22 de septiembre</h3>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">9:00 a 9:30&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">9:00 a 9:30&nbsp;&nbsp;
                         <i class="fas fa-ticket-alt"></i>
                     </div>
-                    <div class="col-md-8">Acreditaciones</div>
+                    <div class="col-xs-8">Acreditaciones</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">9:30 a 10:30&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">9:30 a 10:30&nbsp;&nbsp;
                         <i class="fas fa-bullhorn"></i>
                     </div>
-                    <div class="col-md-8">Ponencia plenaria 1</div>
+                    <div class="col-xs-8">Espacio Reflexión Colectiva</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">10:35 a 11:35&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">10:35 a 11:35&nbsp;&nbsp;
                         <i class="fas fa-comments"></i>
                     </div>
-                    <div class="col-md-8">Espacios de acción / espacios de inspiración / espacio para experiencias</div>
+                    <div class="col-xs-8">Espacio de Inspiración / Espacios de Acción / Espacio de Experiencias</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">11:35 a 12:00&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">11:35 a 12:00&nbsp;&nbsp;
                         <i class="fas fa-coffee"></i>
                     </div>
-                    <div class="col-md-8">Café</div>
+                    <div class="col-xs-8">Pausa</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">12:00 a 13:00&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">12:00 a 13:00&nbsp;&nbsp;
                         <i class="fas fa-comments"></i>
                     </div>
-                    <div class="col-md-8">Espacios de acción / espacios de inspiración / espacio para experiencias</div>
+                    <div class="col-xs-8">Espacio de Inspiración / Espacios de Acción / Espacio de Experiencias</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">13:05 a 14:05&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">13:05 a 14:05&nbsp;&nbsp;
                         <i class="fas fa-bullhorn"></i>
                     </div>
-                    <div class="col-md-8">Ponencia plenaria 2</div>
+                    <div class="col-xs-8">Espacio Reflexión Colectiva</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">14:05 a 16:00&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">14:05 a 16:00&nbsp;&nbsp;
                         <i class="fas fa-utensils"></i>
                     </div>
-                    <div class="col-md-8">Comida</div>
+                    <div class="col-xs-8">Comida</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">16:00 a 17:00&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">16:00 a 17:00&nbsp;&nbsp;
                         <i class="fas fa-comments"></i>
                     </div>
-                    <div class="col-md-8">Comunicaciones / espacio para experiencias</div>
+                    <div class="col-xs-8">Comunicaciones / Espacio de Experiencias</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">17:05 a 18:05&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">17:05 a 18:05&nbsp;&nbsp;
                         <i class="fas fa-comments"></i>
                     </div>
-                    <div class="col-md-8">Comunicaciones / espacio para experiencias</div>
+                    <div class="col-xs-8">Comunicaciones / Espacio de Experiencias</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">18:10 a 19:10&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">18:10 a 19:10&nbsp;&nbsp;
                         <i class="fas fa-bullhorn"></i>
                     </div>
-                    <div class="col-md-8">Ponencia plenaria 3</div>
+                    <div class="col-xs-8">Ponencia plenaria 3</div>
                 </div>
                 
                 <div class="row">
-                    <div class="col-md-4 hora">19:15 a 20:00&nbsp;&nbsp;
+                    <div class="col-xs-4 hora">19:15 a 20:00&nbsp;&nbsp;
                         <i class="fas fa-comment-alt"></i>
                     </div>
-                    <div class="col-md-8">Espacio de reflexión y clausura</div>
+                    <div class="col-xs-8">Espacio de Reflexión y Comienzo</div>
                 </div>
                 
             </div>
@@ -371,6 +418,7 @@
             <p class="pull-left">Copyright (c) Gobierno de Aragón. 2018.  <i class="fab fa-creative-commons"></i></p>
             
             <p class="pull-right">
+                <img src="/img/logoFooterAragon.gif">
             </p>
         </div>
     </div>
@@ -384,6 +432,16 @@
     
 
     
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1734348-11', 'auto');
+ga('send', 'pageview');
+</script>
+
 <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
