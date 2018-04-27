@@ -1,4 +1,4 @@
-Patrocinadores:
+Patrocinadores1:
   - name: "Ideducando"
     image: "/img/patrocinadores/ieducando.png"
     url: "http://ieducando.com/"
@@ -11,6 +11,7 @@ Patrocinadores:
   - name: "EduCaixa"
     image: "/img/patrocinadores/eduCaixa.png"
     url: "https://www.educaixa.com/"
+Patrocinadores2:
   - name: "Fundación Telefónica"
     image: "/img/patrocinadores/fundaciontelefonica.jpg"
     url: "https://www.fundaciontelefonica.com/educacion_innovacion/"

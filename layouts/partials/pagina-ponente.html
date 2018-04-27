@@ -1,0 +1,34 @@
+<section class="bar bar2 background-white datos">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row ponente">
+                
+                <div class="col-xs-3">
+                    <div class="thumbnail">
+                    <img style="width:100%" class="img-responsive center-block desaturate" src="/img/{{ .Params.imagen }}">
+                    {{ if isset .Params "imagenautor" }}
+                    <div class="caption"><small>Foto de {{ .Params.imagenautor }}</small></div>
+                    {{ end }}
+                    </div>
+                    {{ if isset .Params "web" }}
+                    <h3 class="text-center">
+                    <a href="{{ .Params.web}}">{{ .Params.web}}</a>
+                    </h3>
+                    {{end}}
+                </div>
+                <div class="col-xs-9">
+                    <h3>{{ .Params.nombre }}</h3>
+                    <p>{{ .Params.descripcion | markdownify }}</p>
+                    {{ if isset .Params "tituloponencia" }}
+                    <hr>
+                       <h3>{{ .Params.tituloponencia }} </h3>
+                       {{ .Params.resumen | markdownify }}
+                    {{ end }}
+                </div>
+            </div>
+            <hr>
+
+        </div>
+
+    </div>
+</section>

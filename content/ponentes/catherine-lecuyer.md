@@ -25,6 +25,13 @@ descripcion: "Catherine L\u2019Ecuyer es canadiense, afincada en Barcelona y mad
 description: "Catherine L\u2019Ecuyer"
 id: pagina-ponente
 imagen: ecuyer.png
+imagenautor: Pere Tordera
+imagenes: 
+  - foto: ecuyer1.jpg
+    creditos: Pere Tordera
+  - foto: ecuyer2.jpg
+
+
 keywords:
 - ponente
 - ponencia
@@ -35,5 +42,15 @@ nombre: "Catherine L\u2019Ecuyer"
 orden: '2'
 slug: catherine-lecuyer
 title: "Catherine L\u2019Ecuyer"
+
+tituloponencia: Educar en el Asombro
+resumen: >
+  ¿Cómo lograr que un **niño**, y luego un adolescente, sea **capaz de estar quieto observando** con calma a su alrededor, capaz de **esperar** antes de tener, capaz de **pensar**, con motivación para **aprender sin miedo al esfuerzo**?
+
+
+  Los niños crecen en un **entorno cada vez más frenético y exigente** que, por un lado, ha hecho la tarea de educar más compleja, y, por otro, los ha alejado de lo esencial. Para su éxito futuro vemos necesario programarlos para un sinfín de actividades que los están apartando del ocio de siempre, del juego libre, de la naturaleza, del silencio, de la belleza. Su vida se ha convertido en una verdadera carrera para saltar etapas, lo que les aleja cada vez más de su propia naturaleza. Muchos niños se están perdiendo lo mejor de la vida: descubrir el mundo, adentrarse en la realidad. Un ruido ensordecedor acalla sus preguntas, las estridentes pantallas saturan sus sentidos e interrumpan el aprendizaje lento de todo lo maravilloso que hay que descubrir por primera vez. 
+
+
+  Educar en el asombro es **replantear el aprendizaje** como un **viaje que nace desde el interior de la persona**, una aventura maravillosa facilitada por una consideración profunda de lo que reclama la naturaleza del niño, como el **respeto** por su inocencia, sus ritmos, su sentido del misterio y su sed de belleza.
 
 ---

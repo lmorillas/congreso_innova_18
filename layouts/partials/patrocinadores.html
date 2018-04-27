@@ -8,7 +8,7 @@
 
               
                 <ul class="owl-carousel customers">
-                    {{ range .Site.Data.features.listado_patrocinadores.Patrocinadores }}
+                    {{ range .Site.Data.features.listado_patrocinadores.Patrocinadores1 }}
                     <li class="item" title="{{ .name }}">
                         {{ if .url }}
                           <a href="{{ .url }}" target="_blank">
@@ -20,6 +20,20 @@
                     </li>
                     {{ end }}
                 </ul>
+<br>
+                <ul class="owl-carousel customers">
+                        {{ range .Site.Data.features.listado_patrocinadores.Patrocinadores2 }}
+                        <li class="item" title="{{ .name }}">
+                            {{ if .url }}
+                              <a href="{{ .url }}" target="_blank">
+                                <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                              </a>
+                            {{ else }}
+                              <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                            {{ end }}
+                        </li>
+                        {{ end }}
+                    </ul>
                 <!-- /.owl-carousel -->
             </div>
         </div>
