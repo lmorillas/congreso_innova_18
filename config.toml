@@ -96,10 +96,10 @@ publishDir = "docs"
     weight = 18
 
 [[menu.main]]
-    name = "Comunicaciones"
+    name = "Espacios de Comunicación"
     parent = "programa"
     identifier = "comunicaciones"
-    url  = "/comunicaciones/"
+    url  = "/espacios-de-comunicacion/"
     weight = 19
 
 [[menu.main]]

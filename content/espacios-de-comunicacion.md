@@ -1,8 +1,8 @@
 +++
-title = "Comunicaciones"
-description = "Comunicaciones y experiencias de centros educativos"
+title = "Espacios de Comunicación"
+description = "Espacios de Comunicación y experiencias de centros educativos"
 keywords = ["comunicaciones", "experiencias", "educación"]
-slug = "comunicaciones"
+slug = "espacios-de-comunicacion"
 doc1 = "Comunicaciones.docx"
 id = "concarrusel"
 

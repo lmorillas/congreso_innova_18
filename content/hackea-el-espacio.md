@@ -16,3 +16,9 @@ herramienta para afrontar los nuevos retos educativos.
 
 > Los alumnos serán participes de las dinámicas que se creen para intervenir en los espacios con arte comunitario.
 
+### Documentos
+* [Convocatoria](/docs/CONVOCATORIA Hackea el espacio .pdf)
+* [Solicitud de participación](/docs/Anexo I Hackea el espacio.docx)
+* [Plantilla de póster](/docs/Anexo II Hackea el espacio .pdf)
+* [Modelo autorización de imágenes](/docs/Anexo III Autorizacion de imagenes .doc)
+
