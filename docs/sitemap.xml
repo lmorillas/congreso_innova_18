@@ -20,10 +20,6 @@
   </url>
   
   <url>
-    <loc>/comunicaciones/</loc>
-  </url>
-  
-  <url>
     <loc>/contacto/</loc>
   </url>
   
@@ -37,6 +33,10 @@
   
   <url>
     <loc>/inspiracion/</loc>
+  </url>
+  
+  <url>
+    <loc>/espacios-de-comunicacion/</loc>
   </url>
   
   <url>

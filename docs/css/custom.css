@@ -210,7 +210,8 @@
 }
 
 .fechas li {
-font-size: 18px !important;
+  font-size: 18px !important;
+  color: rgb(0,0,0, 0.75);
 
 }
 

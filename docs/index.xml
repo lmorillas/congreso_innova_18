@@ -39,16 +39,6 @@
     </item>
     
     <item>
-      <title>Comunicaciones</title>
-      <link>/comunicaciones/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/comunicaciones/</guid>
-      <description>El II Congreso Internacional de Innovación Educativa, organizado por el Departamento de Educación, Cultura y Deporte del Gobierno de Aragón, es un foro internacional de reflexión, exploración e intercambio de conocimiento sobre la innovación educativa, con especial atención a los espacios y las emociones, en el que poder conocer, analizar y examinar los procesos de enseñanza y aprendizaje.
-En este congreso se expondrán comunicaciones de carácter nacional e internacional destinadas a toda la comunidad educativa.</description>
-    </item>
-    
-    <item>
       <title>Contacto</title>
       <link>/contacto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -82,6 +72,16 @@ En este congreso se expondrán comunicaciones de carácter nacional e internacio
       
       <guid>/inspiracion/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Espacios de Comunicación</title>
+      <link>/espacios-de-comunicacion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/espacios-de-comunicacion/</guid>
+      <description>El II Congreso Internacional de Innovación Educativa, organizado por el Departamento de Educación, Cultura y Deporte del Gobierno de Aragón, es un foro internacional de reflexión, exploración e intercambio de conocimiento sobre la innovación educativa, con especial atención a los espacios y las emociones, en el que poder conocer, analizar y examinar los procesos de enseñanza y aprendizaje.
+En este congreso se expondrán comunicaciones de carácter nacional e internacional destinadas a toda la comunidad educativa.</description>
     </item>
     
     <item>
