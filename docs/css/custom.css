@@ -422,3 +422,7 @@ ul.customers {
   padding-top: 15px;
 }
 
+.agendas a {
+  text-decoration: underline  rgb(176, 11, 92);
+  
+}

@@ -3,11 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/agenda/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/ponentes/alfredo-hernando/</loc>
   </url>
   
   <url>
     <loc>/aviso_legal/</loc>
+  </url>
+  
+  <url>
+    <loc>/buscar/</loc>
+    <priority>0.1</priority>
   </url>
   
   <url>
