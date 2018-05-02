@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on II Congreso Internacional de Innovación Educativa</title>
-    <link>/tags/</link>
+    <link>https://congresoinnovacion.educa.aragon.es/tags/</link>
     <description>Recent content in Tags on II Congreso Internacional de Innovación Educativa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Gobierno de Aragón, 2018</copyright>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://congresoinnovacion.educa.aragon.es/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Agenda</title>
-      <link>/tags/agenda/</link>
+      <link>https://congresoinnovacion.educa.aragon.es/tags/agenda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/agenda/</guid>
+      <guid>https://congresoinnovacion.educa.aragon.es/tags/agenda/</guid>
       <description></description>
     </item>
     

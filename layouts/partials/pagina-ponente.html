@@ -3,7 +3,7 @@
         <div class="col-md-12">
             <div class="row ponente">
                 
-                <div class="col-xs-3">
+                <div class="col-md-3">
                     <div class="thumbnail">
                     <img style="width:100%" class="img-responsive center-block desaturate" src="/img/{{ .Params.imagen }}">
                     {{ if isset .Params "imagenautor" }}
@@ -16,12 +16,14 @@
                     </h3>
                     {{end}}
                 </div>
-                <div class="col-xs-9">
+                <div class="col-md-9">
                     <h3>{{ .Params.nombre }}</h3>
                     <p>{{ .Params.descripcion | markdownify }}</p>
                     {{ if isset .Params "tituloponencia" }}
                     <hr>
-                       <h3>{{ .Params.tituloponencia }} </h3>
+                       <h3>{{ if eq .Params.bloque "Plenarios" }}Reflexión: {{end}}
+                           {{ if eq .Params.bloque "Semiplenarios" }}Inspiración: {{end}}
+                            {{ .Params.tituloponencia }} </h3>
                        {{ .Params.resumen | markdownify }}
                     {{ end }}
                 </div>

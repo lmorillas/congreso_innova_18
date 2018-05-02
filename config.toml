@@ -2,7 +2,7 @@
 
 defaultContentLanguage = "es"
 
-baseurl = '/'
+baseurl = 'https://congresoinnovacion.educa.aragon.es/'
 title = "II Congreso Internacional de Innovación Educativa"
 #"Emocionando y transformando espacios"
 theme = "hugo-universal-theme"
@@ -58,6 +58,12 @@ publishDir = "docs"
     name = "I Congreso"
     url  = "https://2017.congresoinnovacion.educa.aragon.es"
     weight = 5
+
+[[menu.main]]
+    name = "<i class='glyphicon glyphicon-search'></i>"
+    url  = "/buscar/"
+    weight = 6
+
 
 [[menu.main]]
     name = "Agenda"
@@ -137,6 +143,7 @@ publishDir = "docs"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
+    titulo = "II Congreso Internacional de Innovación Educativa"
     lema = "II Congreso Internacional de Innovación Educativa"
     #lema = "Emocionando y transformando espacios"
     fecha = "21 y 22 de Septiembre de 2018"
@@ -144,7 +151,7 @@ publishDir = "docs"
     viewMorePostLink = "/blog/"
     author = "lmorillas"
     defaultKeywords = ["innovación", "educación", "congreso", "innovación educativa"]
-    defaultDescription = "II Congreso de Innovación Educativa: Emocionando y transformando espacios"
+    defaultDescription = "Innovación. Emociones. Transformación de espacios"
 
     # Google Maps API key (if not set will default to not passing a key.)
     googleMapsApiKey = "AIzaSyB97ZU_nZlJA-s2VzHGk-Ii6A6Vr8MQNNM"
@@ -168,12 +175,13 @@ publishDir = "docs"
     #email = "innovaeducar@aragon.es"
 
     about_us = "<p>Departamento de Educación del Gobierno de Aragón</p>"
-    copyright = 'Copyright (c) Gobierno de Aragón. 2018.  <i class="fab fa-creative-commons"></i>'
+    copyright = '(c) Gobierno de Aragón. 2018  <i class="fab fa-creative-commons"></i>'
 
     # Format dates with Go's time formatting
     date_format = "2 de January de 2006"
 
-    logo = "img/logo.png"
+    logo = "/img/logo.png"
+    logo_meta = "/img/logo_h.png"
     address = """<p><strong>Departamento de Educación, Cultura y Deporte</strong>
         <br>Parque Empresarial Dinamiza (Recinto Expo)
         <br>Avenida de Ranillas, 5D
@@ -252,4 +260,6 @@ publishDir = "docs"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
 
 
-disableLanguages = ['en']
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

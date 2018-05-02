@@ -3,4 +3,4 @@ serve:
 
 deploy:
 	hugo
-	sh deployhg.sh
+	sh deployrsync.sh

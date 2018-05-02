@@ -274,7 +274,7 @@
   background: rgba(0, 0, 0, 0.3);
   padding-bottom: 10px;
   font-family: "Open Sans", sans-serif;
-  border-radius: 15px;
+  /*border-radius: 15px;*/
   
 }
 
@@ -287,6 +287,42 @@ h2.owl-title {
 p.owl-caption {
   font-size: 18px;
   line-height: 24px;
+}
+
+
+@media (max-width: 800px) {
+  .owl-text-overlay {
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    
+    background-color: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    /*border-radius: 15px;*/
+    
+  }
+
+  .owl-text-overlay li {
+    font-size: 12px;
+  }
+
+   .fechas li {
+     font-size: 13px !important;
+   }
+
+   .box-simple h3 {
+     font-size: 12px !important;
+   }
+
 }
 
 .owl-theme .owl-controls .owl-page span:active {
@@ -424,5 +460,5 @@ ul.customers {
 
 .agendas a {
   text-decoration: underline  rgb(176, 11, 92);
-  
+
 }

@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ponentes on II Congreso Internacional de Innovación Educativa</title>
-    <link>/ponentes/</link>
+    <link>https://congresoinnovacion.educa.aragon.es/ponentes/</link>
     <description>Recent content in Ponentes on II Congreso Internacional de Innovación Educativa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
     <copyright>Gobierno de Aragón, 2018</copyright>
     
-	<atom:link href="/ponentes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://congresoinnovacion.educa.aragon.es/ponentes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Alfredo Hernando</title>
-      <link>/ponentes/alfredo-hernando/</link>
+      <link>https://congresoinnovacion.educa.aragon.es/ponentes/alfredo-hernando/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ponentes/alfredo-hernando/</guid>
+      <guid>https://congresoinnovacion.educa.aragon.es/ponentes/alfredo-hernando/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Catherine L’Ecuyer</title>
-      <link>/ponentes/catherine-lecuyer/</link>
+      <link>https://congresoinnovacion.educa.aragon.es/ponentes/catherine-lecuyer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ponentes/catherine-lecuyer/</guid>
+      <guid>https://congresoinnovacion.educa.aragon.es/ponentes/catherine-lecuyer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>David Marsh</title>
-      <link>/ponentes/david-marsh/</link>
+      <link>https://congresoinnovacion.educa.aragon.es/ponentes/david-marsh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ponentes/david-marsh/</guid>
+      <guid>https://congresoinnovacion.educa.aragon.es/ponentes/david-marsh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mar Romera</title>
-      <link>/ponentes/mar-romera/</link>
+      <link>https://congresoinnovacion.educa.aragon.es/ponentes/mar-romera/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ponentes/mar-romera/</guid>
+      <guid>https://congresoinnovacion.educa.aragon.es/ponentes/mar-romera/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rosa Liarte</title>
-      <link>/ponentes/rosa-liarte/</link>
+      <link>https://congresoinnovacion.educa.aragon.es/ponentes/rosa-liarte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ponentes/rosa-liarte/</guid>
+      <guid>https://congresoinnovacion.educa.aragon.es/ponentes/rosa-liarte/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rosan Bosch</title>
-      <link>/ponentes/rosan-bosch/</link>
+      <link>https://congresoinnovacion.educa.aragon.es/ponentes/rosan-bosch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ponentes/rosan-bosch/</guid>
+      <guid>https://congresoinnovacion.educa.aragon.es/ponentes/rosan-bosch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Santi Cirugeda</title>
-      <link>/ponentes/santi-cirugeda/</link>
+      <link>https://congresoinnovacion.educa.aragon.es/ponentes/santi-cirugeda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/ponentes/santi-cirugeda/</guid>
+      <guid>https://congresoinnovacion.educa.aragon.es/ponentes/santi-cirugeda/</guid>
       <description></description>
     </item>
     

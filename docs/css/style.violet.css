@@ -2823,7 +2823,7 @@ fieldset[disabled] .btn-template-primary.active {
 }
 
 .affix .navbar{
-  min-height: 66px !important;
+  min-height: 80px !important;
 }
 
 @media (min-width: 768px) {
