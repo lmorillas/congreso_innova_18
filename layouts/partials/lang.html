@@ -1,0 +1,20 @@
+  <div class="select-style fucsia pull-right" id="langselector">
+    <i class="fas fa-language fa-2x"></i> 
+    <select id="select-language" onchange="location = this.value;" class="form-control">
+  {{ $siteLanguages := .Site.Languages}}
+  {{ $pageLang := .Page.Lang}}
+  {{ range .Page.AllTranslations }}
+      {{ $translation := .}}
+      {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+            {{ $selected := false }}
+            {{ if eq $pageLang .Lang}}
+              <option id="{{ $translation.Language }}" value="{{ $translation.URL }}" selected>{{ .LanguageName }}</option>
+            {{ else }}
+              <option id="{{ $translation.Language }}" value="{{ $translation.URL }}">{{ .LanguageName }}</option>
+            {{ end }}
+          {{ end }}
+      {{ end }}
+  {{ end }}
+</select>
+</div>

@@ -1,0 +1,52 @@
+<section class="bar bar2 background-white datos talleres">
+        <div class="container">
+            {{/* <h2 class="text-center">{{ $.Params.title  }}</h2> */}}
+            {{ $url := "static/csv/datos.csv"}}
+            {{ $sep := "," }}
+          
+            {{ range  $i, $r  :=  getCSV $sep $url }}
+            {{ if ge $i 1 }}
+                {{ if eq (index $r 0) $.Params.clavecsv }}
+                {{ $index :=  index $r 3  }}
+
+                {{ $linea := index $r 4}}
+                {{ if eq $linea "emociones" }}
+                    {{ $.Scratch.Set "ico" "fas fa-hand-holding-heart"  }}
+                {{ else if eq $linea "espacios" }}
+                     {{ $.Scratch.Set "ico"  "fas fa-cubes" }}
+                {{ else }}
+                     {{ $.Scratch.Set "ico" "fas fa-laptop" }}
+                {{ end }}
+             
+             {{ if eq (mod  $index  4)  1 }}
+                 <div class="col-md-12 taller">
+                     <div class="row">
+             {{ end }}
+                                     
+                 <div class="col-md-{{ $.Params.col }} {{ $index }}">
+                         <div class="card">
+                                 
+                         <div class="cardpie">  
+                                    <h5 class="text-center">{{ index $r 1 }}</h5>
+                                    <hr class="limaborder">
+                                    <i class="fucsia center-block  {{ $.Scratch.Get "ico" }} fa-4x"></i>
+                                        <!--<p class="text-center">{{ index $r 4 }}</p>-->
+                        </div>
+                         
+                        </div>
+                    </div>
+                    {{ if or (eq (mod  $index  4)  0) (eq $index $.Params.max  )  }}
+       
+                    
+                </div>
+                </div>
+                {{ end }}
+
+               
+            {{ end }}  {{/* if eq  */}}
+            {{ end }}  {{/* if ge  */}}
+            {{ end }}  {{/* range  */}}
+                </div>
+            </div>
+        </div>
+    </section>

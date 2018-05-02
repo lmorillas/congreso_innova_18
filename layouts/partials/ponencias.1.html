@@ -1,0 +1,65 @@
+<section class="bar bar2 background-white datos">
+    <div class="container">
+        <h2 class="text-center">{{ $.Params.title  }}</h2>
+        {{ $url := "https://docs.google.com/spreadsheets/d/e/2PACX-1vS2RR31dSca3b-f15ikhmXuDp9MxW5STFnVD8XD5Hdksxsbm8rc-sM9RgKfw_Jqhb7vNy7QedznVspV/pub?output=csv" }}
+        {{ $sep := "," }}
+      
+        {{ range  $i, $r  :=  getCSV $sep $url }}
+        {{ if ge $i 1 }}
+            {{ if eq (index $r 0) $.Params.clavecsv }}
+            {{ $index :=  index $r 3  }}
+            {{ if eq (mod  $index  4)  1 }}
+            <div class="col-md-12">
+                <div class="row">
+            {{ end }}
+                    
+                <div class="col-md-{{ $.Params.col }} {{ $index }}">
+                        <div class="card">
+                                <img class="img-responsive center-block" src="/img/{{index $r 2}}">
+                        <div class="cardpie">  
+                            <p>{{ $index}}co</p>
+                                <h3 class="text-center">{{ index $r 1 }}</h3>
+                        </div>
+                     
+                        </div>
+                </div>
+                {{ if eq (mod  $index  4)  1 }}
+            </div>
+            </div>
+            {{ end }}
+           
+        {{ end }}  {{/* if eq  */}}
+        {{ end }}  {{/* if ge  */}}
+        {{ end }}  {{/* range  */}}
+            </div>
+        </div>
+    </div>
+</section>
+
+
+         {{/*
+ 
+            
+         {{ $index := ( index $r 3 ) }}
+         {{ if eq (mod ( $index -1 ) 0 }}
+         <div class="col-md-12">
+             <div class="row">
+         {{ end }}
+                 <div class="col-md-4 {{ $index }}">
+                     <div class="box-simple">
+                         <div class="icon">
+                             <i class=" {{ $icon }} "></i>
+                         </div>
+                         <h3>{{ $element.nombre }}</h3>
+                     </div>
+                 </div>
+        https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pencil_tip_closeup.JPG/120px-Pencil_tip_closeup.JPG(eq $index (sub (len $.Site.Data.features.datos.Caracteristicas) 1 )) }}
+             </div>
+         </div>
+         {{ end }}
+         {{ end }}
+         {{ end }}
+
+
+             
+            */}}

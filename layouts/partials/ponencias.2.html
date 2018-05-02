@@ -1,0 +1,57 @@
+<section class="bar bar2 background-white datos">
+        <div class="container">
+            <h2 class="text-center">{{ $.Params.title  }}</h2>
+            {{ $url := "static/csv/datos.csv"}}
+            {{ $sep := "," }}
+            <div class="col-md-12">
+                    <div class="row">
+            {{ range  $i, $r  :=  getCSV $sep $url }}
+            {{ if ge $i 1 }}
+                {{ if eq (index $r 0) $.Params.clavecsv }}
+                {{ $index :=  index $r 3  }}
+                        
+                    <div class="col-md-{{ $.Params.col }} {{ $index }}">
+                            <div class="card">
+                                    <img class="img-responsive center-block desaturate" src="/img/{{index $r 2}}">
+                            <div class="cardpie">  
+                                    <h3 class="text-center">{{ index $r 1 }}</h3>
+                            </div>
+                         
+                            </div>
+                    </div>
+               
+            {{ end }}  {{/* if eq  */}}
+            {{ end }}  {{/* if ge  */}}
+            {{ end }}  {{/* range  */}}
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+             {{/*
+     
+                
+             {{ $index := ( index $r 3 ) }}
+             {{ if eq (mod ( $index -1 ) 0 }}
+             <div class="col-md-12">
+                 <div class="row">
+             {{ end }}
+                     <div class="col-md-4 {{ $index }}">
+                         <div class="box-simple">
+                             <div class="icon">
+                                 <i class=" {{ $icon }} "></i>
+                             </div>
+                             <h3>{{ $element.nombre }}</h3>
+                         </div>
+                     </div>
+             {{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.features.datos.Caracteristicas) 1 )) }}
+                 </div>
+             </div>
+             {{ end }}
+             {{ end }}
+             {{ end }}
+    
+    
+                 
+                */}}

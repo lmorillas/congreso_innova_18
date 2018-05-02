@@ -1,0 +1,49 @@
+<section class="bar bar2 background-white datos">
+        <div class="container">
+            {{ $url := "static/csv/datos.csv"}}
+            {{ $sep := "," }}
+            <div class="col-md-12">
+                    <div class="row">
+            {{ range  $i, $r  :=  getCSV $sep $url }}
+            {{ if ge $i 1 }}
+                {{ if eq (index $r 0) $.Params.clavecsv }}
+                {{ $index :=  index $r 3  }}
+                {{ $linea := index $r 4}}
+                {{ $bloque := index $r 0}}
+                
+                
+
+                {{ if eq $linea "emociones" }}
+                   {{ $.Scratch.Set "ico" "fas fa-heart"  }}
+                {{ else if eq $linea "espacios" }}
+                    {{ $.Scratch.Set "ico"  "fas fa-cubes" }}
+                {{ else }}
+                        {{ $.Scratch.Set "ico" "fas fa-laptop" }}
+                {{ end }}
+
+                
+                        
+                    <div class="col-md-{{ $.Params.col }} {{ $index }}">
+                            <div class="card">
+                                    <img style="height:200px" class="img-responsive img-circle center-block desaturate" src="/img/{{index $r 2}}">
+                                    <hr>
+                            <div class="cardpie"> <i class="lima center-block  {{ $.Scratch.Get "ico" }} fa-3x"></i>
+                            <h3 class="text-center">{{ index $r 1 }} 
+                                    <a {{ if eq $bloque "Plenarios"}}
+                                        href="/ponentes/{{ index $r 1 | urlize }}"
+                                        {{else}}
+                                        href="/ponentes/{{ index $r 1 | urlize }}"
+                                        {{end}}
+                                        > <i class="fas fa-info-circle"></i></a></h3>
+                            </div>
+                         
+                            </div>
+                    </div>
+               
+            {{ end }}  {{/* if eq  */}}
+            {{ end }}  {{/* if ge  */}}
+            {{ end }}  {{/* range  */}}
+                </div>
+            </div>
+        </div>
+</section>

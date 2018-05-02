@@ -1,0 +1,16 @@
+<section class="background-cuartielles">
+    <div class="container">
+        <h3 class="text-center fucsia">
+            <i class="far fa-calendar-alt"></i> Fechas para recordar</h3>
+        <div class="col-md-3 col-xs-hide"></div>
+        <div class="col-md-6 col-xs-12 fechas">
+            <ul>
+                {{ range .Site.Data.features.datos.Fechas }}
+
+                <li> {{ . }}</li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+
+</section>

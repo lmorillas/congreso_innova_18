@@ -1,0 +1,37 @@
+<section>
+    <div class="container">
+        <div class="row agenda">
+            <div class="col-md-6 col-xs-12">
+                <h3>Viernes 21 de septiembre</h3>
+                {{ range $.Params.viernes }}
+                <div class="row">
+                    <div class="col-xs-4  hora">{{ .Hora }} &nbsp;&nbsp;
+                        <i class="fas fa-{{ .icon }}"></i>
+                    </div>
+                    <div class="col-xs-8">{{ .Actividad | markdownify }}</div>
+                </div>
+                {{end}}
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <h3>Sábado 22 de septiembre</h3>
+                {{ range $.Params.sabadoman }}
+                <div class="row">
+                    <div class="col-xs-4 hora">{{ .Hora }}&nbsp;&nbsp;
+                        <i class="fas fa-{{ .icon }}"></i>
+                    </div>
+                    <div class="col-xs-8">{{ .Actividad | markdownify}}</div>
+                </div>
+                {{end}}
+                <hr>
+                {{ range $.Params.sabadotar }}
+                <div class="row">
+                    <div class="col-xs-4 hora">{{ .Hora }}&nbsp;&nbsp;
+                        <i class="fas fa-{{ .icon }}"></i>
+                    </div>
+                    <div class="col-xs-8">{{ .Actividad | markdownify}}</div>
+                </div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+</section>

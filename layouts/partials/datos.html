@@ -1,0 +1,32 @@
+<section class="bar bar2 background-white datos">
+    <div class="container">
+            
+        {{ range $index, $element := .Site.Data.features.datos.Caracteristicas  }}
+		{{ if eq (mod $index 3) 0 }}
+		<div class="col-md-12">
+            <div class="row">
+        {{ end }}
+				<div class="col-xs-4 {{ $index }}">
+                    <div class="box-simple">
+                        {{ if  not ( eq .link "")  }}
+                            <a href="{{ .link }}"> 
+                        {{ end }}
+                        <div class="icon">
+                            <i class="{{ .icon }}"></i>
+                        </div>
+                        
+                        <h3 class="text-center dato">{{ $element.dato }}</h3>
+                        {{ if  not ( eq .link "")  }}
+                        </a> 
+                     {{ end }}
+                    </div>
+                </div>
+		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.features.datos.Caracteristicas) 1 )) }}
+			</div>
+		</div>
+		{{ end }}
+        {{ end }}
+         
+    </div>   
+  
+</section>

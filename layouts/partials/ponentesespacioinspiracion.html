@@ -1,0 +1,29 @@
+<section class="bar bar2 background-white datos">
+        <div class="container">
+                
+            {{ $url := "static/csv/datos.csv"}}
+            {{ $sep := "," }}
+            <div class="col-md-12">
+                    
+            {{ range  $i, $r  :=  getCSV $sep $url }}
+            {{ if ge $i 1 }}
+                {{ if eq (index $r 0) "Semiplenarios" }}
+                {{ $index :=  index $r 3  }}
+                <div class="row ponente" >    
+                        <div class="col-xs-3" id="{{ index $r 1 | urlize }}" >
+                                   
+                                <img style="width:100%" style="height:200px"  class="img-responsive center-block desaturate" src="/img/{{index $r 2}}">
+                        </div>
+                        <div class="col-xs-9" >
+                                        <h3 >{{ index $r 1 }}</h3>
+                                <p>{{ index $r 5 | markdownify }}</p></div>                            
+        </div>
+        <hr>
+               
+            {{ end }}  {{/* if eq  */}}
+            {{ end }}  {{/* if ge  */}}
+            {{ end }}  {{/* range  */}}
+                </div>
+            </div>
+        
+</section>

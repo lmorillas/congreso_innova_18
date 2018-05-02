@@ -13,7 +13,7 @@ Caracteristicas:
     link: "espaciosdeaccion"
   - dato: "Espacios de Comunicación"
     icon: "far fa-comments"
-    link: "comunicaciones"
+    link: "espacios-de-comunicacion"
   - dato: "Experiencias de centros"
     icon: "fab fa-slideshare"
     link: "experiencias-centros"
